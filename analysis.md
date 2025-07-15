@@ -6,7 +6,7 @@ The following histogram shows how wallet credit scores are distributed across ra
 
 ![Score Distribution](score_distribution.png)
 
-### ✅ Wallet Count per Score Range:
+### Wallet Count per Score Range:
 
 | Score Range  | Number of Wallets |
 |--------------|-------------------|
@@ -21,9 +21,7 @@ The following histogram shows how wallet credit scores are distributed across ra
 | 801–900      | 262               |
 | 901–1000     | 109               |
 
----
-
-## 🟥 Behavior of Low-Scoring Wallets (0–400)
+## Behavior of Low-Scoring Wallets (0–400)
 
 - Typically have **low or zero repayments**
 - Often exhibit **high borrow-to-deposit ratios**
@@ -31,9 +29,7 @@ The following histogram shows how wallet credit scores are distributed across ra
 - Showed **short usage duration** and minimal activity
 - May reflect **bot-like or high-risk behavior**
 
----
-
-## 🟩 Behavior of High-Scoring Wallets (700–1000)
+## Behavior of High-Scoring Wallets (700–1000)
 
 - Demonstrate **consistent repayments**
 - Borrow within responsible limits compared to deposits
@@ -41,21 +37,15 @@ The following histogram shows how wallet credit scores are distributed across ra
 - Exhibit **longer protocol usage periods**
 - High transaction counts indicating **trustworthy activity**
 
----
-
-## 📌 Insights
+## Insights
 
 - Most wallets score between **600–700**, indicating moderate trust levels.
 - Very few wallets fall into the extreme **low (0–100)** or **high (900–1000)** score range.
 - **Liquidations and over-borrowing** are the top indicators of risk.
 - **Good repayment behavior and longevity** significantly improve scores.
 
----
-
-## 📈 Suggestions for Improvement
+## Suggestions for Improvement
 
 - Incorporate time-weighted features (e.g., recent vs. older transactions).
 - Add clustering to identify wallet behavior patterns more robustly.
 - Use anomaly detection or supervised ML for fraud/risk prediction if labeled data is available.
-
----
