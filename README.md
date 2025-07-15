@@ -44,8 +44,3 @@ Final score is clamped between `0` and `1000`.
 ### 4. **Output**
 - `wallet_scores.json`: wallet-wise scores and summary
 - `score_distribution.png`: histogram of wallet scores
-
-## How to Run
-
-```bash
-python score_wallets.py
